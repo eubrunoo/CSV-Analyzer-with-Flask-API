@@ -62,7 +62,7 @@ Open your browser and navigate to the following URL:
 
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-##API Usage
+## API Usage
 
 The API consists of two main endpoints:
 
