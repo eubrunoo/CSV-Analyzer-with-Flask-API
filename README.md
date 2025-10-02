@@ -1,6 +1,17 @@
 # CSV Analyzer with Flask API
 
-A web API built with Python and Flask that allows users to upload CSV files, perform data analysis based on user-defined columns, and returns the results in JSON format. The project includes a simple frontend for direct interaction with the API.
+A powerful web tool designed for businesses to easily upload their sales data in CSV format and instantly gain key insights into their performance. This application processes sales files to reveal total revenue, best-selling products, and top customers through a user-friendly interface and a robust API.
+
+## Project Objective
+
+The goal of this project is to provide a simple, self-hosted solution for small to medium-sized businesses to perform essential sales analysis without needing complex software. By simply providing a sales report in CSV format, a user can quickly understand:
+
+- **Overall Financial Performance:** What is the total revenue?
+- **Product Popularity:** Which product is the best-seller?
+- **Customer Value:** Who are the most valuable customers by spending?
+- **Sales Volume:** What is the total number of transactions?
+
+This tool empowers users to make data-driven decisions by making sales analysis accessible and instantaneous.
 
 ## Features
 
