@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <title>Analisador de CSV Genérico</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Analisador de CSV Genérico</h2>
+      <form id="analysis-form">
+        <div>
+          <label for="file-input">1. Selecione seu arquivo CSV:</label>
+          <input id="file-input" type="file" name="file" required />
+        </div>
+
+        <hr />
+
+        <div>
+          <p>2. Informe os nomes exatos das colunas do seu arquivo:</p>
+          <label for="coluna_produto">Coluna para "Produto/Item":</label>
+          <input
+            type="text"
+            id="coluna_produto"
+            name="coluna_produto"
+            placeholder="Ex: Nome_Produto"
+            required
+          /><br /><br />
+
+          <label for="coluna_preco">Coluna para "Preço/Valor":</label>
+          <input
+            type="text"
+            id="coluna_preco"
+            name="coluna_preco"
+            placeholder="Ex: Preco"
+            required
+          /><br /><br />
+
+          <label for="coluna_quantidade">Coluna para "Quantidade":</label>
+          <input
+            type="text"
+            id="coluna_quantidade"
+            name="coluna_quantidade"
+            placeholder="Ex: Quantidade"
+            required
+          /><br /><br />
+
+          <label for="coluna_cliente">Coluna para "Cliente/Comprador":</label>
+          <input
+            type="text"
+            id="coluna_cliente"
+            name="coluna_cliente"
+            placeholder="Ex: ID_Cliente"
+            required
+          /><br /><br />
+        </div>
+
+        <input type="submit" value="Analisar" />
+      </form>
+
+      <div id="status"></div>
+      <div id="resultado" style="display: none"></div>
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+ID_Transacao,ID_Produto,Nome_Produto,Preco,Quantidade,ID_Cliente
+1,101,Laptop,3500,1,501
+2,102,Mouse,150,2,502
+3,101,Laptop,3500,1,503
+4,103,Teclado,300,1,501
+5,104,Monitor,1200,1,502
+6,102,Mouse,150,1,503
+7,101,Laptop,3500,1,501
+8,104,Monitor,1200,2,504
+9,102,Mouse,150,3,501
